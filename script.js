@@ -1,6 +1,6 @@
 JavaScript
 
 function sayHello() {
-   alert("Hello! Welcome to my website.");
+   alert("TEST WORKS!");
 {
    
