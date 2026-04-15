@@ -32,3 +32,12 @@ button:hover {
 background-colour: darkgreen;
 }
 
+.box  {
+background-colour: white
+font-size: 12px;
+font-family: "Roboto", sans-serif;
+padding 20px
+border: 1px, white, solid;
+text-align: center;
+}
+
