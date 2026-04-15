@@ -2,19 +2,19 @@ CSS
 
 /* Body style */
 body {
-font-family: Ariel, san-serif;
+font-family: "Roboto", san-serif;
 text-align: center;
-background-colour: #f0f0f0;
+background-colour: darkgreen;
 }
 
 /* Heading style*/
 h1 {
-colour: dark blue;
+colour: darkgray;
 }
 
 /*Paragraph style*/
 p {
-colour: black;
+colour: white;
 font-size: 18px;
 }
 
