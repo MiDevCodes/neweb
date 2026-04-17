@@ -1,62 +1,87 @@
-HTML
+Index · HTML
+Copy
 
 <!DOCTYPE html>
 <html>
 <head>
   <title>My first simple Mi Dev website!</title>
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+ 
+    /* Body style */
+    body {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      color: darkgreen;
+      margin: 0;
+      padding: 20px;
+    }
+ 
+    /* Heading style */
+    h1 {
+      color: darkgray;
+      font-size: 43px;
+      margin-top: 30px;
+    }
+ 
+    /* Paragraph style */
+    p {
+      color: orange;
+      font-size: 18px;
+      line-height: 1.7;
+      max-width: 600px;
+      margin: 10px auto;
+    }
+ 
+    /* Box style */
+    .box {
+      background-color: #ffffff;
+      border: 2px solid darkgreen;
+      border-radius: 10px;
+      padding: 15px;
+      width: fit-content;
+      margin: 20px auto;
+    }
+ 
+    /* Button style */
+    button {
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+ 
+    button:hover {
+      background-color: darkgreen;
+    }
+ 
+  </style>
 </head>
-</body>
-  CSS
-
-/* Body style */
-body {
-font-family: "Roboto", san-serif;
-text-align: center;
-color: darkgreen;
-}
-
-/* Heading style*/
-h1 {
-color: darkgray;
-  font-size: 43px;
-}
-
-/*Paragraph style*/
-p {
-font-color: orange;
-font-size: 18px;
-}
-
-/* Button style */
-button {
-background-color: green;
-color: white;
-padding: 10px 20px;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-}
-
-button:hover {
-background-color: darkgreen;
-}
-
-  <h1> welcome to the first simple Mi Dev Handbook website</h1>
-  <p>This is my first paragraph. I am on my journey of learning web dev, design and game. :) email me @ gamesbymi26@gmail.com.</p>
-  <p> This website is a bit more advanced than my basic. using more CSS! </p>
-                                                                                                                      
-
-<div class="box">
-   <p> ✨ To be Continued</p>
-</div>
-
-
-<button onclick="sayHello()">Click Me!</button>
-  <script> 
+<body>
+ 
+  <h1>Welcome to the first simple Mi Dev Handbook website</h1>
+ 
+  <p>This is my first paragraph. I am on my journey of learning web dev, design and game. :) Email me @ gamesbymi26@gmail.com</p>
+ 
+  <p>This website is a bit more advanced than my basic, using more CSS!</p>
+ 
+  <div class="box">
+    <p>✨ To be Continued</p>
+  </div>
+ 
+  <button onclick="sayHello()">Click Me!</button>
+ 
+  <script>
     function sayHello() {
-      alert("welcome!");
+      alert("Welcome!");
     }
   </script>
+ 
 </body>
 </html>
