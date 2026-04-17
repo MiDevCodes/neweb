@@ -4,24 +4,25 @@ CSS
 body {
 font-family: "Roboto", san-serif;
 text-align: center;
-background-colour: darkgreen;
+color: darkgreen;
 }
 
 /* Heading style*/
 h1 {
-colour: darkgray;
+color: darkgray;
+  font-size: 43px;
 }
 
 /*Paragraph style*/
 p {
-colour: white;
+font-color: orange;
 font-size: 18px;
 }
 
 /* Button style */
 button {
-background-colour: green;
-colour: white;
+background-color: green;
+color: white;
 padding: 10px 20px;
 border: none;
 border-radius: 5px;
@@ -29,15 +30,15 @@ cursor: pointer;
 }
 
 button:hover {
-background-colour: darkgreen;
+background-color: darkgreen;
 }
 
 .box  {
-background-colour: white
+background-color: blue;
 font-size: 12px;
 font-family: "Roboto", sans-serif;
 padding 20px
-border: 1px, white, solid;
+border: 5px, white, solid;
 text-align: center;
 }
 
